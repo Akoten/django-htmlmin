@@ -6,7 +6,7 @@
 
 from setuptools import setup, find_packages
 from htmlmin import __version__
-
+import sys
 
 PY_VERSION = sys.version_info[0], sys.version_info[1]
 if PY_VERSION < (3, 0):
